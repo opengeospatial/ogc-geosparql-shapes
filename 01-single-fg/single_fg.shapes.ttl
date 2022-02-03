@@ -1,0 +1,20 @@
+# Contributor:
+# Nicholas J. Car, GeoSPARQL SWG MEmber, <nicholas.car@surroundaustralia.com>
+
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+
+
+<http://www.opengis.net/def/geosparql/validator/extended/01-single-fg/01>
+    a sh:NodeShape ;
+    rdfs:comment "Tests for Features having exactly one Geometries" ;
+    sh:targetClass geo:Feature ;
+    sh:property [
+        sh:path geo:hasGeometry ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+        sh:class geo:Geometry ;
+        sh:message "For the Single FG Profile of GeoSPARQL, Features must have exactly 1 Geometry related by hasGeometry" ;
+    ] ;
+.

@@ -28,7 +28,7 @@ The shapes in this repository are presented in RDF files in the Turtle format wi
 
 ## Shapes
 
-1. [Single FG Profile](01_single_fg_profile)
+1. [Single FG Profile](01-single-fg)
     * ensures that each Feature has one, and only one, Geometry
 
 ## Contact
