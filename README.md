@@ -28,6 +28,9 @@ The shapes in this repository are presented in RDF files in the Turtle format wi
 
 ## Shapes
 
+1. [Single FG Profile](01_single_fg_profile)
+    * ensures that each Feature has one, and only one, Geometry
+
 ## Contact
 
 For all matters relating to this repository's content, please contact either the [Geosemantics DWG](https://www.ogc.org/projects/groups/semantics) or the individual authors of the shapes, given in metadata.
