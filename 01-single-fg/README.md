@@ -2,7 +2,7 @@
 
 This is a community profile of GeoSPARQL that ensures that Features have exactly one Geometry related to them by `ogc:hasGeometry`. 
 
-This is a trivial profile but exists for testing the community-contributed GeoSPATQL extended shapes.
+This is a trivial profile but exists for testing the community-contributed GeoSPARQL extended shapes.
 
 ## Shapes
 
